@@ -15,18 +15,18 @@
  - configurar se necessario a rede default usada pelo docker no daemon.json
  - inciar o servico do docker
 
-#### 7 - Instalar zabbix agent 2 
- - colocar para inciar com o  SO 
- - configuar o envio para o zabbix server
- - iniciar o  zabbix agent
- - adicionar o usuario do zabbix ao grupo do docker para fazer o monitoramento dos containers 
-
-#### 8 - Criar docker compose  para o deploy da aplicacao 
+#### 7 - Criar docker compose  para o deploy da aplicacao 
  - container do nginx 
     portas usadas 80 e 443
 
   Obs: como sugestao servicos em container teria como usar traefik no lugar no nginx, ele é mais enficiente nesse casos pois renova os certificados automaticamente e nao precisa reiniar para incerir novos servicos 
- - container do novo serviço
+ - container do novo serviço coloque o nome da imagem a ser usada em image: e adicione o volume que será usado no container do novo-servico.
+
+#### 8 - Instalar zabbix agent 2 
+ - colocar para inciar com o  SO 
+ - configuar o envio para o zabbix server
+ - iniciar o  zabbix agent
+ - adicionar o usuario do zabbix ao grupo do docker para fazer o monitoramento dos containers 
 
  #### 9 - Criar rotinas de Backup a depender do nivel de prioridade da aplicacao (backup full, incremental e snapshots)
 
