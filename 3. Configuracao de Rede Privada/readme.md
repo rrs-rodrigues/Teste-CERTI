@@ -5,7 +5,7 @@
 
        definir faixa de IP que será distribuída, máscara de sub-rede, gataway e DNS.
 
-- Para o controle de acesso por MAC address utilizaremos **switchport** nos switch para que cada porta aprenda dinamicamente um MAC e nao aceitei outro
+- Para o controle de acesso por MAC address utilizaremos **switchport port-security** nos switch para que cada porta aprenda dinamicamente um MAC e nao aceitei outro
 
 todos os comandos usado em cada porta
 
