@@ -1,4 +1,4 @@
-#### 1 - Levantamento dos recursos inicias para o provisionamento da instancia na cloud (vCPU,  RAM, armazenamento)
+#### 1 - Enviar email para saber qual aplicacao sera usada e os recursos inicias para o provisionamento da instancia na cloud (vCPU,  RAM, armazenamento)
 
 #### 2 - Criacao da instancia na cloud
 
